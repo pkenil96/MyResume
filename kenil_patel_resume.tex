@@ -1,6 +1,6 @@
 %-------------------------
 % Resume in Latex
-% Author : Sourabh Bajaj
+% Author : Kenil Patel
 % License : MIT
 %------------------------
 
@@ -69,7 +69,6 @@
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \begin{document}
 
 %----------HEADING-----------------
@@ -78,58 +77,53 @@
   \href{https://pkenil96.github.io}{https://pkenil96.github.io} & Mobile : 9994739300 \\
 \end{tabular*}
 
-
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Vellore Institute of Technology}{Vellore, TN}
-      {Bachelor of Technology in Computer Science;  GPA: 3.71 (9.28)}{Jul. 2014 -- Aug. 2018}
-    \resumeSubheading
+      {Bachelor of Technology in Computer Science;  GPA: 3.71 (9.28)}
+      {Jul. 2014 -- Aug. 2018}
   \resumeSubHeadingListEnd
-
-
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
       {Netskope}{Bangalore, KA}
       {Member of Technical Staff}{Jul 2018 - Present}
       \resumeItemListStart
         \resumeItem{Signature Development}
-          {Core company product that extracts unique patterns from HTTP(s) traffic to identify activities like Upload, Download, Share, Post etc and let the customer impose fine-grained policies. (Netskope’s proprietary XML signatures).}
-        \resumeItem{Reverse Proxy Solutions}
-          {Worked in Reverse proxy deployment team. Developed rewrite rules and callbacks to bring customer traffic to Netskope's Proxy(Python, JSON, YAML).}
+          {Core company product that extracts unique patterns from HTTP(s) traffic to identify activities like Upload, Download, Share, Post etc and let the customer impose fine-grained policies.}
+        \resumeItem{Reverse Proxy}
+          {Worked with Reverse proxy deployment team. Developed rewrite rules and callbacks to bring customer traffic to Netskope Proxy(Python, JSON, YAML, SAML, SSO).}
         \resumeItem{Stack Management}
-          {Responsible for upgrading, debugging local stacks and provisioning new VMs on AWS, KVM and ESXi (Jenkins, Ansible).}
-        \resumeItem{Research & Patent}
-          {Storage Constraint Profile feature: Metadata-Based Data Loss Prevention(DLP) for Cloud Resources.}
+          {Responsible for upgrading, debugging local stacks and provisioning new VM(s) on AWS, KVM and ESXi (Jenkins, Ansible).}
+        \resumeItem{Research and Patent}
+          {Worked with the co-founder to develop and patent rights for  Storage Constraint Profile feature for Netskope IaaS team; Metadata-Based Data Loss Prevention(DLP) for Cloud Resources.}
         \resumeItem{Log Parser}
-          {Developed python tool to extract valuable data from large-sized production logs.}
+          {Developed python tool to extract valuable data from production logs, used for monitoring critical alerts and taking proactive steps. (Python)}
       \resumeItemListEnd
 
     \resumeSubheading
       {Netskope}{Bangalore, KA}
-      {Software Developer Intern}{Jan 2014 - Juk 2014}
+      {Software Developer Intern}{Jan 2014 - Jul 2014}
       \resumeItemListStart
         \resumeItem{Content developer}
-          {Cloud apps traffic analysis and Signature writing for AWS CLI and SDK(s) (Fiddler, Wireshark, TCPdump)}
-        \resumeItem{Unit Tests}
-          {Developed Unit tests for backend codebase as part of company's CICD integration.}
+          {Cloud apps traffic analysis and signature writing for AWS CLI and SDK(s) (Fiddler, Wireshark, TCPdump)}
+        \resumeItem{UT coverage}
+          {Wrote unit tests for reverse proxy backend as part of company's CICD integration. (Pytest, Unittest, Flask)}
         \resumeItem{Inline team automation}
           {Developed a python tool to automate feature testing and improve quality for signatures.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {BISAG}{Gandhinagar, GJ}
+      {Bhaskaracharya Institute For Space Applications and Geo-Informatics}{Gandhinagar, GJ}
       {Research Summer Intern}{May 2017 - Jul 2017}
       \resumeItemListStart
-        \resumeItem{Dynamic map printing composition}
+        \resumeItem{Dynamic map composition in GIS}
           {Developed dynamic map printing tool to study the pattern of voters in Gujarat's rural area. Worked on Openlayers, Mapfish, JS and Geoserver.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
-
 
 %-----------PROJECTS-----------------
 \section{Projects}
@@ -142,19 +136,29 @@
       {Scrape well-known news sites like The Hindu/Hindustan Times and extract the paragraph that has the input GRE word.}
     \resumeSubItem{LogParser}
       {Developed a python tool to extract valuable data from thousands of lines of production logs.}
+    \resumeSubItem{UniversityCourseBuilder}
+      {Developed a C++ program using topological sort that checks the prerequisite courses and lists best possible combination for students.}
   \resumeSubHeadingListEnd
 
-%
+
 %--------PROGRAMMING SKILLS------------
-%\section{Programming Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Python, C++, Javascript, SQL}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Kafka, Ansible, Jenkins, Mongo}
-%    }
-%  \resumeSubHeadingListEnd
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: Python, C++, Javascript, SQL}
+      \hfill
+      \textbf{Technologies}{: AWS, Kafka, SAML, Ansible, Jenkins, Mongo}
+    }
+  \resumeSubHeadingListEnd
 
 
-%-------------------------------------------
+%--------Honours and Awards-------------
+\section{Honours and Awards}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Chief Minister Schlarships}
+      {Recepient of CMS scholarships awarded to the top 10 percent high school students across the country. (Hon. chief minister scholarship scheme, Gujarat Govt, 2014}
+    \resumeSubItem{Cent percent attendance award}
+      {Recepient of 100 percent attendance award for maintaining full attendance during undergraduate feshman year. (VIT University, 2015)}
+  \resumeSubHeadingListEnd
+
 \end{document}

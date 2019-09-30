@@ -1,2 +1,2 @@
 ### Preview
-![Resume Screenshot](/resume_preview.png)
+![Resume Screenshot](/resume_preview.jpg)
